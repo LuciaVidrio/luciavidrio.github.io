@@ -1,0 +1,179 @@
+
+
+body{
+    background-color: #e2d2ad;
+    font-family:  Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%; 
+  margin-bottom: 1px;
+
+
+  display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+h1, h2 {
+    margin: 0; /* Ajusta el valor según sea necesario */
+    text-align: center;
+   
+}
+
+
+
+table {
+    background-color: #d3bc84; /* Cambia 'lightblue' al color que prefieras */
+    margin: 50px auto;
+    border-collapse: collapse;
+    
+  
+
+
+}
+.imagen-cuadrada {
+
+    border-radius: 30%; /* Establece un borde redondeado al 50%, lo que hace que la imagen parezca un círculo */
+    flex: 0 0 auto; /* La foto no se expandirá ni encogerá */
+    margin-right: 20px; /* Espacio entre la foto y el texto */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    color: white; /* Cambia 'blue' al color que prefieras */
+}
+
+
+
+.tabla-izquierda {
+    float: left; /* Coloca el contenedor a la izquierda */
+    width: 40%; /* Establece el ancho del contenedor */
+    margin-right: 10px; /* Añade espacio entre las tablas */
+    backdrop-filter: blur(5px); /* Aplica un desenfoque de 5 píxeles */
+    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #bbaa91;
+   
+    background-size: cover;
+    padding: 0px; /* Agrega espacio alrededor de la tabla */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3); /* Sombra */
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+  
+}
+
+.tabla-derecha {
+    float: right; /* Coloca el contenedor a la derecha */
+    width: 40%; /* Establece el ancho del contenedor */
+    margin-left: 10px; /* Añade espacio entre las tablas */
+    backdrop-filter: blur(5px); /* Aplica un desenfoque de 5 píxeles */
+    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #bbaa91;
+   
+    background-size: cover;
+    padding: 0px; /* Agrega espacio alrededor de la tabla */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    color: white;
+    
+}
+
+
+.tabla-izquierda table, .tabla-derecha table {
+    width: 30%; /* Asegura que las tablas ocupen el 100% del ancho del contenedor */
+}
+.tabla-rigth{
+
+    float: right; /* Coloca el contenedor a la izquierda */
+    width: 40%; /* Establece el ancho del contenedor */
+    margin-right: 20px; /* Añade espacio entre las tablas */
+    backdrop-filter: blur(5px); /* Aplica un desenfoque de 5 píxeles */
+    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #bbaa91;
+   
+    background-size: cover;
+    padding: 0px; /* Agrega espacio alrededor de la tabla */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    color: white;
+    margin-bottom: 20px;
+    margin-top: -375px;
+
+}
+
+
+.tabla-desenfocada {
+    
+    backdrop-filter: blur(5px); /* Aplica un desenfoque de 5 píxeles */
+    background-color: #a58d6d;
+   
+   
+   
+    background-size: cover;
+    padding: 0px; /* Agrega espacio alrededor de la tabla */
+    border-radius: 10px; /* Esquinas redondeadas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    
+ 
+
+}
+.tabla-2 {
+    
+    float: right; /* Coloca el contenedor a la izquierda */
+    width: 40%; /* Establece el ancho del contenedor */
+    margin-right: 10px; /* Añade espacio entre las tablas */
+    backdrop-filter: blur(5px); /* Aplica un desenfoque de 5 píxeles */
+    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #bbaa91;
+   
+    background-size: cover;
+    padding: 0px; /* Agrega espacio alrededor de la tabla */
+    border-radius: 20px; /* Esquinas redondeadas */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    color: white;
+    margin-top: 20px;
+
+    
+}
+
+footer {
+    margin-top: auto;
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación de texto */
+}
+
+footer p, footer ul {
+    margin: 5px 0; /* Ajuste de márgenes para párrafos y listas */
+    font-size: 14px; /* Tamaño del texto */
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+    font-size: 14px; /* Tamaño del texto para los elementos de la lista */
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-info {
+    color: white; /* Cambia #FF0000 al color que desees */
+}
+.column {
+    width: 100%;
+  }
+  
+  @media (min-width: 600px) {
+    .column {
+      width: 50%;
+    }
+  }
